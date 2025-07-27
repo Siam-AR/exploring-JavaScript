@@ -59,19 +59,16 @@ console.log("[aInNumber] : " + aInNumber + "\n" +
             "[gInNumber] : " + gInNumber + "\n" 
         );
 
-// Boolean conversion tests
-let aa = 1
-let bb = 0
-let cc = "" ; // empty string 
-let dd = "Hello"
+// Boolean Conversion
 
-let booleanOfaa = Boolean(aa)
-let booleanOfbb = Boolean(bb)
-let booleanOfcc = Boolean(cc)
-let booleanOfdd = Boolean(dd)
-
-console.log(aa,bb,cc,dd);
-console.log(booleanOfaa, booleanOfbb, booleanOfcc, booleanOfdd);
+console.log(Boolean(null));       // false
+console.log(Boolean(undefined));  // false
+console.log(Boolean(0));          // false
+console.log(Boolean(1));          // true
+console.log(Boolean(""));         // false
+console.log(Boolean("false"));    // true -> non-empty string is truthy
+console.log(Boolean([]));         // true -> empty array is truthy
+console.log(Boolean({}));  
 
 
 // ************ IMPLICIT TYPE CONVERSION OPERATIONS *************
