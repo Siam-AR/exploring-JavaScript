@@ -33,17 +33,6 @@ console.log(null == undefined);   // true
 console.log(null === undefined);  // false
 
 
-// Boolean Conversion
-
-console.log(Boolean(null));       // false
-console.log(Boolean(undefined));  // false
-console.log(Boolean(0));          // false
-console.log(Boolean(""));         // false
-console.log(Boolean("false"));    // true -> non-empty string is truthy
-console.log(Boolean([]));         // true -> empty array is truthy
-console.log(Boolean({}));         // true -> empty object is truthy
-
-
 // NaN Behavior
 
 console.log(NaN == NaN);        // false -> NaN is not equal to itself
