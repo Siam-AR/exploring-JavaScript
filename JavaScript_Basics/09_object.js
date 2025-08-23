@@ -128,4 +128,4 @@ console.log(c2CourseInstructor);
 
 console.log(".....................")
 console.log(jsUser?.address?.city); // Safe access, won't throw error if address is undefined
-// console.log(jsUser.city.address) // This will throw error
+// console.log(jsUser.city.address) // This will throw error 
